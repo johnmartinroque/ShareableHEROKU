@@ -36,6 +36,7 @@ CORS_ALLOW_HEADERS = ['*']
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
+    'https://abcabc123-acd97d6f01bb.herokuapp.com',
 ]
 
 CORS_ALLOWED_CREDENTIALS = True

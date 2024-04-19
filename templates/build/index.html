@@ -1,40 +1,8 @@
-{% comment %} {% load static %}<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="{% static '/favicon.ico' %}" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link
-    rel="{% static 'apple-touch-icon' %}"
-    href="{% static '/logo192.png' %}"
-  />
-  <link rel="{% static 'manifest' %}" href="{% static '/manifest.json' %}" />
-  <title>Shareable</title>
-  <script
-    defer="defer"
-    src="{% static '/static/js/main.5b06ef81.js' %}"
-  ></script>
-  <link href="{% static '/static/css/main.4eabde3d.css'%}" rel="stylesheet" />
-  <script
-    defer="defer"
-    src="https://bucket-shareable.s3.amazonaws.com/static/admin/js/manifest.json"
-  ></script>
-  <link
-    href="https://goget-bucket.s3.amazonaws.com/static/css/main.66b931db.css"
-    rel="stylesheet"
-  />
-</head>
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
-{% endcomment %} {% load static %}
+{%load static%}
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    {% comment %}
-    <link rel="icon" href="{% static '/favicon.ico' %}" />
-    {% endcomment %}
+    <link rel="icon" href=" {% static '/favicon.ico' %}" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -45,13 +13,16 @@
       rel="{% static 'apple-touch-icon' %}"
       href="{% static '/logo192.png' %}"
     />
-    <link rel="{% static 'manifest' %}" href="{% static '/manifest.json' %}" />
+    <link rel="{% static 'manifest' %}" href=" {% static '/manifest.json' %}" />
     <title>Shareable</title>
     <script
       defer="defer"
-      src="{% static '/static/js/main.5b06ef81.js' %}"
+      src=" {% static '/static/js/main.5b06ef81.js' %}"
     ></script>
-    <link href="{% static '/static/css/main.4eabde3d.css'%}" rel="stylesheet" />
+    <link
+      href=" {% static '/static/css/main.4eabde3d.css' %}"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
